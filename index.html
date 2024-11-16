@@ -3,20 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style-menu.css"/> 
+    <link rel="stylesheet" href="style-menu.css" />
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <title>GameTek Studios</title>
   </head>
   <body>
-    <!--Essa parte é responsavel pelo o menu do site principal onde possui a logo e os links-->
+
+    <!-- Menu Principal -->
     <header id="home">
       <nav>
-        <img src="img/logo.jpg" alt="" class="logo"/>
+        <!-- Logo do site -->
+        <img src="img/logo.jpg" alt="Logo da GameTek Studios" class="logo" />
+
+        <!-- Menu para dispositivos móveis -->
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
         </div>
+
+        <!-- Links de navegação -->
         <ul class="nav-list">
           <li><a href="#home">Início</a></li>
           <li><a href="#sobre">Sobre</a></li>
@@ -24,93 +30,104 @@
           <li><a href="#contato">Contato</a></li>
           <button id="toggle-dark-mode" class="toggle-btn">🌙</button>
         </ul>
-      </nav><br><br>
-     
+      </nav>
+
+      <!-- Slider de Imagens -->
       <section class="slider">
         <div class="slider-content">
-            
-            <input type="radio" name="btn-radio" id="radio1">
-            <input type="radio" name="btn-radio" id="radio2">
-            <input type="radio" name="btn-radio" id="radio3">
-            <input type="radio" name="btn-radio" id="radio4">
+          <input type="radio" name="btn-radio" id="radio1">
+          <input type="radio" name="btn-radio" id="radio2">
+          <input type="radio" name="btn-radio" id="radio3">
+          <input type="radio" name="btn-radio" id="radio4">
 
-            <div class="slide-box primeiro">
-                <img class="img-desktop" src="img/sonic.jpg" alt="slide 1">
-                <img class="img-mobile" src="img/slide-1-mob.jpg" alt="slide 1">
-            </div>
-
-            <div class="slide-box">
-                <img class="img-desktop" src="img/jogodavelha.jpg" alt="slide 3">
-                <img class="img-mobile" src="img/slide-2-mob.jpg" alt="slide 1">
-            </div>
-
-            <div class="slide-box">
-                <img class="img-desktop" src="img/memoria.jpg" alt="slide 3">
-                <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
-            </div>
-
-            <div class="slide-box">
-              <img class="img-desktop" src="img/cobra.jpg" alt="slide 3">
-              <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
+          <!-- Slides -->
+          <div class="slide-box primeiro">
+            <img class="img-desktop" src="img/sonic.jpg" alt="Sonic">
+            <img class="img-mobile" src="img/slide-1-mob.jpg" alt="Sonic Mobile">
           </div>
 
-            <div class="nav-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </div>
+          <div class="slide-box">
+            <img class="img-desktop" src="img/jogodavelha.jpg" alt="Jogo da Velha">
+            <img class="img-mobile" src="img/slide-2-mob.jpg" alt="Jogo da Velha Mobile">
+          </div>
 
-            <div class="nav-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-            </div>
+          <div class="slide-box">
+            <img class="img-desktop" src="img/memoria.jpg" alt="Jogo de Memória">
+            <img class="img-mobile" src="img/slide-3-mob.jpg" alt="Jogo de Memória Mobile">
+          </div>
+
+          <div class="slide-box">
+            <img class="img-desktop" src="img/cobra.jpg" alt="Cobra">
+            <img class="img-mobile" src="img/slide-3-mob.jpg" alt="Cobra Mobile">
+          </div>
+
+          <!-- Navegação automática -->
+          <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+
+          <!-- Navegação manual -->
+          <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
 
         </div>
-    </section>
-      <!--Aqui se encerra o menu-->
-    </header><br><br>
-    <!--Essa é a segunda parte do site onde esta localizado sobre a a equipe e os participantes do grupo Lembrando sao todas as mesmas classes-->
+      </section>
+    </header>
+
+    <!-- Seção "Sobre" - Equipe -->
     <main>
-      <h1><strong>Sobre</strong> nossa equipe</h1><br>
-       <!--Essa div tem uma extrema importancia e responsavel para mexer em outros box dos participantes do grupos-->
+      <div class="txt-digitacao">
+        <h1><strong>Sobre</strong> nossa equipe</h1>
+      </div>
+
       <div class="main-geral" id="sobre">
+        <!-- Cartões de membros da equipe -->
         <div class="cartao-equipe">
-          <img src="img/logo.jpg" alt="Foto do Membro" />
+          <img src="img/logo.jpg" alt="Isaac">
           <h2>Isaac</h2>
-          <p>Foi responsavel por tal coisa</p>
+          <p>Foi responsável por tal coisa.</p>
         </div>
 
         <div class="cartao-equipe">
-          <img src="img/logo.jpg" alt="Foto do Membro" />
+          <img src="img/logo.jpg" alt="Antonio">
           <h2>Antonio</h2>
-          <p>Foi responsavel por tal coisa</p>
+          <p>Foi responsável por tal coisa.</p>
         </div>
+
         <div class="cartao-equipe">
-          <img src="img/logo.jpg" alt="Foto do Membro" />
+          <img src="img/logo.jpg" alt="Matheus">
           <h2>Matheus</h2>
-          <p>Foi responsavel por tal coisa</p>
+          <p>Foi responsável por tal coisa.</p>
         </div>
+
         <div class="cartao-equipe">
-            <img src="img/logo.jpg" alt="Foto do Membro" />
-            <h2>Yuri</h2>
-            <p>Foi responsavel por tal coisa</p>
-          </div>
-          <div class="cartao-equipe">
-            <img src="img/logo.jpg" alt="Foto do Membro" />
-            <h2>Leonardo</h2>
-            <p>Foi responsavel por tal coisa</p>
-          </div>
-          <div class="cartao-equipe">
-            <img src="img/logo.jpg" alt="Foto do Membro" />
-            <h2>Kaleby</h2>
-            <p>Foi responsavel por tal coisa</p>
-          </div>
+          <img src="img/logo.jpg" alt="Yuri">
+          <h2>Yuri</h2>
+          <p>Foi responsável por tal coisa.</p>
+        </div>
+
+        <div class="cartao-equipe">
+          <img src="img/logo.jpg" alt="Leonardo">
+          <h2>Leonardo</h2>
+          <p>Foi responsável por tal coisa.</p>
+        </div>
+
+        <div class="cartao-equipe">
+          <img src="img/logo.jpg" alt="Kaleby">
+          <h2>Kaleby</h2>
+          <p>Foi responsável por tal coisa.</p>
+        </div>
       </div>
-       <!--Aqui se encerra a main ou seja o local das informaçoes da equipe-->
     </main>
+
+    <!-- Script JS -->
     <script src="script.js"></script>
   </body>
 </html>

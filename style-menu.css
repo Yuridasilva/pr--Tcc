@@ -266,6 +266,7 @@ h1{
     text-align: center;
     font-size: 40px;
     margin: 20px;
+    margin-top: 60px;
 }
 
 strong{
@@ -279,6 +280,7 @@ strong{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 40px;
 }
 
 /* Cartões de membros da equipe */

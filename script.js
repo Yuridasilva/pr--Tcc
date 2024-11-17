@@ -1,3 +1,5 @@
+AOS.init();
+
 // Obtém o botão de alternância
 const toggleButton = document.getElementById('toggle-dark-mode');
 
